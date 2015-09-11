@@ -1,0 +1,138 @@
+<div>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+        <title>CMS Log Page</title>
+        <!-- CSS  -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+        <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    </head>
+
+    <body class="grey lighten-2">
+        <div class="header-section red darken-1">
+            <div class="container">
+                <div class="row">
+                    <div class="text-header left">
+                        <div class="page-title grey-text text-lighten-5">CMS Log Page</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container content-section">
+            <div class="row">
+                <div class="col s12">
+                    <ul class="tabs z-depth-1 logs">
+                        <li class="tab col s3"><a class="active" href="#all">All</a></li>
+                        <li class="tab col s3"><a href="#added">Added</a></li>
+                        <li class="tab col s3"><a href="#unlinked">Unlinked</a></li>
+                        <li class="tab col s3"><a href="#closed">Closed</a></li>
+                    </ul>
+                </div>
+                <div id="all" class="col s12">
+                    <!-- Show all contents here -->
+                    <div class="grey lighten-5 contents-table">
+                        <table class="centered striped bordered">
+                            <thead>
+                                <tr>
+                                    <th data-field="date">Date</th>
+                                    <th data-field="channel">Channel</th>
+                                    <th data-field="action">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2015.09.11</td>
+                                    <td>Channel UC7e-oXHJYOCu8dGJxOZ1GiQ</td>
+                                    <td>added to CMS anytv_affiliate4</td>
+                                </tr>
+                                <tr>
+                                    <td>2015.09.11</td>
+                                    <td>Channel UCRT2gc9vXu41YJnXr64TsVA</td>
+                                    <td>unlinked from CMS anytv_affiliate3</td>
+                                </tr>
+                                <tr>
+                                    <td>2015.09.11</td>
+                                    <td>Channel UC6tR4oLlO_CY2OFfoRDpFJA</td>
+                                    <td>closed by YouTube in CMS anytv_affiliate2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div id="added" class="col s12">
+                    <!-- Show added contents here -->
+                    <div class="grey lighten-3 contents-table">
+                        <table class="centered striped bordered">
+                            <thead>
+                                <tr>
+                                    <th data-field="date">Date</th>
+                                    <th data-field="channel">Channel</th>
+                                    <th data-field="action">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2015.09.11</td>
+                                    <td>Channel UC7e-oXHJYOCu8dGJxOZ1GiQ</td>
+                                    <td>added to CMS anytv_affiliate4</td>
+                                </tr>                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div id="unlinked" class="col s12">
+                    <!-- Show unlinked contents here -->
+                    <div class="grey lighten-3 contents-table">
+                        <table class="centered striped bordered">
+                            <thead>
+                                <tr>
+                                    <th data-field="date">Date</th>
+                                    <th data-field="channel">Channel</th>
+                                    <th data-field="action">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2015.09.11</td>
+                                    <td>Channel UCRT2gc9vXu41YJnXr64TsVA</td>
+                                    <td>unlinked from CMS anytv_affiliate3</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div id="closed" class="col s12">
+                    <!-- Show closed contents here -->
+                    <div class="grey lighten-3 contents-table">
+                        <table class="centered striped bordered">
+                            <thead>
+                                <tr>
+                                    <th data-field="date">Date</th>
+                                    <th data-field="channel">Channel</th>
+                                    <th data-field="action">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2015.09.11</td>
+                                    <td>Channel UC6tR4oLlO_CY2OFfoRDpFJA</td>
+                                    <td>closed by YouTube in CMS anytv_affiliate2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  Scripts-->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+        <script src="js/init.js"></script>
+    </body>
+
+    </html>
+</div>

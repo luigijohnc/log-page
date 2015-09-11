@@ -1,0 +1,35 @@
+.header-section {
+    height: 200px;
+}
+
+.text-header {
+	padding-top: 40px;
+}
+.page-title {
+	font-weight: 300;
+    font-size: 48px;
+}
+
+.content-section {
+	transform: translateY(-48px);
+}
+
+.collection {
+	margin-top: 0;
+}
+
+.contents-table {
+	padding: 15px;
+}
+
+.tabs.logs {
+	background-color: #b71c1c;
+}
+
+.tabs.logs .tab a {
+	color: #fafafa;
+}
+
+.tabs.logs .indicator {
+	background-color: #ffeb3b;
+}
