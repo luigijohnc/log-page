@@ -1,5 +1,5 @@
 .header-section {
-    height: 200px;
+    height: 250px;
 }
 
 .text-header {
@@ -32,4 +32,18 @@
 
 .tabs.logs .indicator {
 	background-color: #ffeb3b;
+}
+
+.filter-date {
+	margin-top: 15px;
+	padding-left: 15px;
+}
+
+.filter-date label {
+	color: #f5f5f5;
+}
+
+.filter-date input[type=text] {
+	color: #eee;
+	border-bottom: 1px solid #f5f5f5;
 }
