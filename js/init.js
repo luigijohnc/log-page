@@ -40,8 +40,10 @@
                             '<td><a href="https://www.youtube.com/channel/' + a.channel_id +
                             '" target="_blank"><img src="http://raven.tm:8080/channel/' + a.channel_id + '/thumb" width="40px" height="40px"/> ' +
                             a.title + '</a></td><td>' + a.linked_date + '</td><td>' + a.action + '</td>' + '<td>' + (a.note || '') +
-                             '</td>' + '<td><a href="#modal1" class="info-trigger' + a.channel_id +'"><i class="material-icons">info_outline</i></a></td></tr>');
-						$('.info-trigger'+a.channel_id).leanModal();
+                            '</td>' + '<td><a href="#modal1" class="info-trigger' + a.channel_id + '"><i class="material-icons">info_outline</i></a></td></tr>');
+                        
+                        $('.info-trigger' + a.channel_id).leanModal();
+
                         if (index === data.length - 1) {
                             last_date = a.change_date;
                         }
@@ -50,7 +52,7 @@
                 });
 
         }
-        
+
         get_data();
 
 
