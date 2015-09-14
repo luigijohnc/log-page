@@ -47,3 +47,16 @@
 	color: #eee;
 	border-bottom: 1px solid #f5f5f5;
 }
+
+.stats.collection {
+	margin-top: 15px;
+}
+
+.stats.collection .collection-item .row {
+	margin-bottom: 0;
+	padding: 10px;
+}
+
+.stats.collection .collection-item .row .title {
+	font-weight: 700;
+}
