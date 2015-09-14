@@ -60,3 +60,11 @@
 .stats.collection .collection-item .row .title {
 	font-weight: 700;
 }
+
+.reports-table tbody {
+	font-size: 14px;
+}
+
+.modal-details .collection-item strong{
+	margin-right: 15px;
+}
